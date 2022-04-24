@@ -1,13 +1,14 @@
 import readchar
 import random
 import os
+#Posiciones
+POS_X = 0 #inicializa en cero
+POS_Y = 1 # inicializa en 1
+MAP_WIDTH = 20 #Ancho del mapa
+MAP_HEIGTH = 15 # alto del mapa
+NUM_OF_MAP_OBJECTS = 11 #Tamaño de la cola
 
-POS_X = 0
-POS_Y = 1
-MAP_WIDTH = 20
-MAP_HEIGTH = 15
-NUM_OF_MAP_OBJECTS = 11
-
+####Este es el mapa
 obstacle_definition = """\
 ###########################
                        ####
@@ -26,21 +27,22 @@ obstacle_definition = """\
 ###########################\
 """
 
-my_position = [6, 3]
-tail_length = 0 
-tail = []   
-map_objects = []
+my_position = [6, 3] #inicializacion del mapa
+tail_length = 0 #incializa en cero la cola
+tail = []   #cole en vacio
+map_objects = [] #conteo del objetivos del mapa
 
-end_game = False
-died = False
+end_game = False #inicializa el juego en falso
+died = False #Conre el numero de muertes
 
 # Create obstacle map
+#contea los caracteres y al final de line hace un corte
 obstacle_definition = [list(row) for row in obstacle_definition.split("\n")]
-
+print(obstacle_definition)
 
 # Main Loop
 while not end_game:
-    os.system("cls")
+    #os.system("cls")
     # Generate random objects on the map
     while len(map_objects) < NUM_OF_MAP_OBJECTS:
         new_position = [random.randint(0, MAP_WIDTH), random.randint(0, MAP_HEIGTH)]

@@ -1,0 +1,1 @@
+print('idat','edu','pe',sep='.')

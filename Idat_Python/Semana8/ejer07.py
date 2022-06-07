@@ -1,0 +1,1 @@
+n=int(input('Ingrese el valor de n: '))

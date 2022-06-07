@@ -1,0 +1,6 @@
+##Instalar la libreria
+pip install py2exe
+
+
+##Ejecutar el comando de compilacion
+python setup.py py2exe

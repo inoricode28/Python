@@ -1,6 +1,6 @@
 notas=int(input("ingrese notas: "))
 
-if notas<=0 or notas>=21:
+if notas<=0 and notas>=21:
     notas =-1 #try
 if notas>=11 and notas<19:
     notas=notas+2

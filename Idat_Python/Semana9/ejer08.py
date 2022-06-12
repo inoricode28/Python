@@ -1,12 +1,15 @@
-#Diseñe un programa que imprima y sume 25 términos de la siguiente serie:
-#2, 7, 4, 9, 8, 11, 16, 13 ...
-#
+razonPar,razonImpar,suma,r=1,7,0,0
 
-while True:
-    n=int(input())
-    t,suma=5,0
-    for i in range(0,n):
-        t+=2**i
-        suma+=t
-    print("Termino",n,"=",t)
-    print("La suma hasta el termino",n,"es=",suma)
+for i in range(2,27):
+    if i%2==0:
+        r=2**razonPar
+        print(r,end=",")
+        razonPar+=1
+        
+    else:        
+        print(razonImpar,end=",")
+        razonImpar+=2
+        r=razonImpar
+    suma+=r
+
+print("\nLa suma es: ",suma)

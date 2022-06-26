@@ -10,8 +10,3 @@ if ordernada:
     print("La lista esta ordenada en forma ascendente")
 else:
     print("La lista NO esta ordenada en forma ascendente")
-
-
-
-
-

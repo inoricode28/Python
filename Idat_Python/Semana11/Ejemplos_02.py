@@ -33,5 +33,3 @@ suma=0
 for elemento in lista:
     suma+=elemento
 print("Suma: " + str(suma))
-
-

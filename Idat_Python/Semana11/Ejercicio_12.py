@@ -6,9 +6,3 @@ for elemento in lista:
         listaUnica.append(elemento)
 
 print(listaUnica)
-
-
-
-
-
-

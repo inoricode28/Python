@@ -18,6 +18,3 @@ for i in range(1,len(lista)):
 print(lista)
 print("Mayor:",mayor)
 print("Menor:",menor)
-
-
-

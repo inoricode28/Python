@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>471</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Control de Registro de ventas</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>721</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Area de venta</string>
+    </property>
+    <widget class="QComboBox" name="cboProducto">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>261</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Seleccionar producto</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colección Escolar</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colección PreUniversitaria</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colección Profesional</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Seleccione producto</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Seleccione tipo de pago</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cboPago">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>180</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Selecionar tipo de pago</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Contado</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tarjeta</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>20</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cantidad</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txtCantidad">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>50</y>
+       <width>113</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>20</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Precio del Producto</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblPrecio">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>50</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnRegistrar">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>320</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Registrar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnNuevo">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>320</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nuevo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnlimpiarTabla">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>320</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Limpiar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSalir">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>320</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tblDatos">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>771</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Producto</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cantidad</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Precio</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tipo de pago</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Descuento</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Recargo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Precio final</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Fecha</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QDateEdit" name="dtFecha">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>20</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>20</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Fecha</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

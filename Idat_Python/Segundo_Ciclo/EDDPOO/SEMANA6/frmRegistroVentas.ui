@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>551</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>ÁREA DE VENTA</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Seleccionar producto: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>111</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Seleccionar tipo de pag: </string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>171</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Seleccionar producto</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colección escolar</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colección PreUniversitaria</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Colección Profesional</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>171</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Seleccionar tipo de pago</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Contado</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tarjeta</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>350</y>
+      <width>551</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Colección PreUniversitara</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Colección Profesional</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Colección Escolar</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>PRODUCTO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>CANTIDAD</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>PRECIO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TIPO PAGO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DESCUENTO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>RECARGO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>PRECIO FINAL</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>FECHA</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
